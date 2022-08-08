@@ -1,4 +1,4 @@
-#What is Information Security?
+What is Information Security?
 
 A system configuration issue can allow an attacker to gain
 access to a database containing personal information.
@@ -13,7 +13,7 @@ systems from unathorized access, use, disclosure, disruption,
 modification, or destruction.
 
 
-#When are you secure?
+When are you secure?
 
 A system in such a state might be secure, but it's not usable or
 productive.
@@ -42,6 +42,54 @@ for many federal agencies in the United States
 
 #The Confidentiality, Integrity, and Availability Traid
 
+#Confidentiality
 
-        
+Confidentiality refers to our ability to protect our data from those who
+are not authorized to view it. 
+
+
+Example of Confidentiality:
+
+      Personal Identification number (PIN), allow anyone to withdraw fun from 
+    the ATM, if he/she has an ATM card. Owner of ATM will maintain confidentiality
+    of the account number, balance, and any other information needed to communicate 
+    to the bank from which funds are being withdrawn.
+    
+    
+Ways to Comproise Confidentiality:
+
+      1. Lose a laptop containing data
+      2. Person could look over your shoulder while you enter a password
+      3. Could send an email attachment to the wrong person
+      
+      
+Integrity
+
+"Integrity", ability to prevent people from changing your data in an 
+unauthorized or undesirable manner.
+
+Maintaining Integrity, prevent unauthorized changes to your data and 
+ability to reverse unwanted authorized changes.
+
+
+Availability
+
+"Availability", the ability to access our data when we need it.
+
+Lose availability due to a power loss, operating system or application
+problems, network attacks, or the comprising of a system. 
+
+Exampe, 
+      An outside partt, like an attacker causes such issues, we typically
+    call this "denial-of-service (DoS)" attack.
+    
+The Parkerian Hexad
+
+Parkerian Hexad consist of, Confidentiality, Availability, Integrity,
+Authenticity, Utility, and Possession.
+
+
+Possession 
+    
+    
         
