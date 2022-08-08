@@ -1,0 +1,47 @@
+#What is Information Security?
+
+A system configuration issue can allow an attacker to gain
+access to a database containing personal information.
+
+"Security", can be protecting your assets, whether from 
+attackers invading your networks, natural disasters, vandalism,
+loss, or misuse.
+
+
+"Information Security", protecting information and information 
+systems from unathorized access, use, disclosure, disruption, 
+modification, or destruction.
+
+
+#When are you secure?
+
+A system in such a state might be secure, but it's not usable or
+productive.
+As you increase the level of security, you usually decrease the level
+of productivity.
+
+No single activity or action will make you secure in every situation.
+
+Examples of what would put you in an insecure state:
+      
+        - Not applying security patches or applications updates to your system
+        - Using weak passwords such as "password" or "1234"
+        - Downloading programs from the internet
+        - Opening email attachements from unkown senders
+        - Using wireless networks without encryption
+        
+Payment Card Industry Data Security Standard (PCI DSS)
+applies to companies that process credit card payments.
+
+Health Insurance Portability and Accountability Act of 1996 (HIPAA)
+for organization that handle healthcare and patient records
+
+Federal Information Security Management Act (FISMAA), security standards
+for many federal agencies in the United States
+
+
+#The Confidentiality, Integrity, and Availability Traid
+
+
+        
+        
