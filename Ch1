@@ -1,4 +1,4 @@
-What is Information Security?
+#What is Information Security?
 
 A system configuration issue can allow an attacker to gain
 access to a database containing personal information.
@@ -13,7 +13,7 @@ systems from unathorized access, use, disclosure, disruption,
 modification, or destruction.
 
 
-When are you secure?
+#When are you secure?
 
 A system in such a state might be secure, but it's not usable or
 productive.
@@ -63,7 +63,7 @@ Ways to Comproise Confidentiality:
       3. Could send an email attachment to the wrong person
       
       
-Integrity
+#Integrity
 
 "Integrity", ability to prevent people from changing your data in an 
 unauthorized or undesirable manner.
@@ -72,7 +72,7 @@ Maintaining Integrity, prevent unauthorized changes to your data and
 ability to reverse unwanted authorized changes.
 
 
-Availability
+#Availability
 
 "Availability", the ability to access our data when we need it.
 
@@ -83,13 +83,315 @@ Exampe,
       An outside partt, like an attacker causes such issues, we typically
     call this "denial-of-service (DoS)" attack.
     
-The Parkerian Hexad
+#The Parkerian Hexad
 
 Parkerian Hexad consist of, Confidentiality, Availability, Integrity,
 Authenticity, Utility, and Possession.
 
 
-Possession 
-    
-    
+#Possession
+
+"Possesion" or "Control" the physical disposition of the media on which
+the data is stored. 
+
+Enables you to discuess your loss of data in its physical medium without
+inolving other factors such as availability.
+
+Principle of possesion would enable you to more accurately describe the 
+scope of the incident.
+
+#Authenticity
+
+"Authenticity", allows you to say whether you've attributed the data in
+question to the proper owner or creator. 
+
+Authenticity can be enforced using digital signatures.
+
+"nonrepudation", prevents people from taking an action, such as sending an
+email and then later denying that they have done so.
+
+
+#Utility
+
+"Utility", how useful the data is to you.
+
+Variety of degrees of utility, depending on the data and its format.
+
+# Attacks
+
+Face attacks from a wide variety of approaches and angle. 
+Break them down to "type" of attack, "risk" the attack represents, and
+the "controls" you might use to mitigate it.
+
+#Types of Attacks
+
+      
+      C: Interception
+      
+      I: Interruption
+         Modification
+         Fabrication
+      
+      A: Interruption
+         Modifcation
+         Fabrication
+         
+         
+#Interception
+
+ Allow unauthorized users to access your data, applications, or environments
+ and they are primarly attacks against confidentiality.
+ 
+ Example of Interception:
+ 
+      - Unathorized file viewing or copying
+      - Eavesdropping on phone conversations
+      - Reading someone else's email
+ 
+ Interruption
+ 
+ "Interruption" Attacks make your assets unusable or unavailable to you on a
+ temporary or permanent basis. 
+ 
+ An attacker manipulating the process on which database runs to prevent access
+ to the data it contains, you might consider this an integrity attack, 
+ due to the possible loos or corruption of data. 
+ 
+ Modification
+ 
+ "Modifcation", involve tampering with an asset.
+ 
+ If you access a file in an unaothirzed manner and alter the data it contains, 
+ you have affected the integrity of the files data. 
+ 
+ If the file in question is a configuration file that manages how a service behaves
+ changing the contents of the file might affect the availability of that service.
+ 
+ 
+ Fabrication
+ 
+ Fabrication attacks involve generating data, process, communcations, or other
+ similar  materail with a system. 
+ 
+ Fabrication attacks primarly affect integrity, but can affect availability.
+ 
+ Generating fake information in a databse would be a kind of fabrication attack.
+ 
+ 
+ #Threats, Vulnerabilities, and Risk
+ 
+ Threats
+ 
+ A threat is something that has the pontential to cause harm. Threats tend to 
+ be specific to certain environments, particularly in the world of information
+ security.
+ 
+ Example:
+      
+            A virus might be problematic on a Windosw opearting system, same
+          virus will be unlikely to have any affect on a linux opearting system.
+          
+          
+Vulnerabilities
+
+Vulnerabilities are weakness, or holes, that threats can exploit to cause you
+harm.
+
+Might involve specific opearting system or application that you're running, 
+the physical location of your office building, a data center that is overpopulated
+with servers and producing more heat than its A/C system can handle, a lack of
+backup generators, or other facotrs.
+
+
+Risk
+
+Risk is the likelihood that something bad will happen.
+
+For a risk to be in an environement, you need to have both a threat and vulnerability
+that the threat could exploit.
+
+
+Impact
+
+Us National Security Agency (NSA), add a factor to the threat/vulnerability/risk equation.
+
+Impact takes into account the value of the asset being threatened and uses it to calculate
+risk.
+
+Risk management
+
+Identify Assets
+
+Important part of the risk management process is identifying the assets you're protecting.
+
+Once Assets are Identified in use, decide which of them are ciritcal business assetts. 
+An accurate determination of which assets are truly critcal to conducting business well
+generally require the input of functions that make use of the assets.
+
+Identify Threats
+
+By enumerating your critical assets, you can then begin to identify the threats that might
+affect them. 
+
+Useful to have a framework for discussing the nature of a given threat.
+
+
+
+Assess Vulnerabilities
+
+Assessing vulnerabilites, you need to do so in the contect of potential threats.
+
+Any given asset may have thousands or millions of threats that could impact it, 
+but only a small fraction of these will be relevant
+
+
+Assess Risks
+
+Once identified the threats and vulnerabilities for a given asset, you can asses
+the overall risk.
+
+A vulnerability with no matching threat or a threat with no matching vulnerability
+does not contitute a risk.
+
+Mitigate Risks
+
+To mitigate risks, you can put measures in place to account for each threat.
+
+"Contorls" are divided into three categories:
+
+      1. Physical
+      2. Logical
+      3. Administrative
+      
+      
+Physical Controls
+
+      - Protect the physical environment in which your systems sit, or 
+      where your data is stored.
+      
+      - Controls also control access in and out of such environments.
+  
+  Physical Controls:
+      
+       1. Fences
+       2. Gates
+       3. Locks
+       4. Bollards
+       5. Guards
+       6. Cameras
+       
+   Physical Contorls may not seem like they'd be integral to information 
+   security, they're one of the most critical controls.
+   
+   If attackers can physically access your systems, they can steal or destroy
+   them, rendering them unavailable for your use.
+   
+   
+Logical Controls
+
+      - Somtimes called "Technical Controls"
+      - Protect the systems, networks, and environments that process, transmit
+        and store your data.
+      - Enable you to prevent unauthorized activties; if your logical controls
+        are implemented properly and are successful.
         
+   Logical Controls:
+      
+       1. Passwords
+       2. Encryption
+       3. Access Controls
+       4. Firewalls
+       5. Instrusion Detection Systems
+       
+Administrative Controls
+
+      - Based on rules, laws, policies, procedures, guidelines,
+        and other items that are "paper"
+      - Dictate how the users of your environment should behave.
+      - Administrative Controls can represent differing levels of
+        authority
+        
+        
+Incident Response
+
+      The Incident Reponse Process:
+      
+            1. Preparation
+            2. Detection and Analysis
+            3. Containment
+            4. Eradication
+            5. Recovery
+            6. Post-incident activity
+            
+   Preperation
+      
+      Involves creating policies and procedures that govern the incident response
+      and handling, conducting training and education for both incident handlers
+      and those who are expected to report incidents, and developing and maintaining
+      documentation.
+      
+      
+   Detection and Analysis
+   
+      Detection and analysis phase is where the action begins.
+      Detect an issue, decide whether it's actually an incident, and respond
+      to it appropriately.
+      
+      You will detect issue with a security tool or service like:
+                  
+                  
+                  - Instruction Detection System (IDS)
+                  - Antivirus (AV)
+                  - Firewall logs
+                  - Proxy logs
+                  - Alerts form a security information and event monitoring (SIEM)
+                  - Managed Security Service Provider (MSSP)
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
